@@ -9,9 +9,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
-      id-token: none
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -36,5 +35,3 @@ jobs:
           publish_dir: ./dist
           published_branch: gh-pages
           force_orphan: true
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com

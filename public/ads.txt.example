@@ -1,0 +1,8 @@
+# AdSense Ads.txt Example
+# Replace with your actual AdSense publisher ID
+# This file should be placed at the root of your domain
+
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec08e6005
+
+# Additional ad networks can be added below

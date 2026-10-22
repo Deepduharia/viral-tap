@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
-Sitemap: https://yourusername.github.io/viral-tap/sitemap.xml
+Sitemap: https://Deepduharia.github.io/viral-tap/sitemap.xml
